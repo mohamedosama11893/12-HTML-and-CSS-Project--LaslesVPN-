@@ -1,0 +1,46 @@
+:root {
+  --container-width: 119rem;
+  --color-white: #fff;
+  --color-dark-grey: #4f5665;
+  --color-grey: #ddd;
+  --color-light-grey: #eeeff2;
+  --color-more-light-grey: #f8f8f8;
+  --color-very-dark-blue: #0b132a;
+  --color-red: #f53838;
+  --color-red-dark: #b80000;
+  --color-red-shadow: rgba(255, 0, 0, 0.7);
+  --color-black-shadow: rgba(136, 136, 136, 0.4);
+  --color-headline: var(--color-very-dark-blue);
+  --color-text: var(--color-dark-grey);
+  --color-background-more-light: var(--color-white);
+  --color-background-light: var(--color-more-light-grey);
+  --color-button-bg: var(--color-red);
+  --color-button-bg-dark: var(--color-red-dark);
+  --color-box-border-hover: var(--color-red);
+  --color-box-border: var(--color-more-light-grey);
+  --color-box-shadow: var(--color-red-shadow);
+  --color-box-shadow-black: var(--color-black-shadow);
+  --font-family-rubik: "Rubik", sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  --gutter: 2rem;
+  --default-padding: 4rem;
+  --default-radius: 1rem;
+  --default-line-height: 3rem;
+
+  --font-size-70: 7rem;
+  --font-size-65: 6.5rem;
+  --font-size-50: 5rem;
+  --font-size-40: 4rem;
+  --font-size-35: 3.5rem;
+  --font-size-30: 3rem;
+  --font-size-25: 2.5rem;
+  --font-size-20: 2rem;
+  --font-size-18: 1.8rem;
+  --font-size-16: 1.6rem;
+  --font-size-14: 1.6rem;
+
+  --transition-timing: 0.5s;
+}

@@ -1,0 +1,232 @@
+/* PC */
+@media (max-width: 1280px) {
+  .container {
+    padding-inline: calc(var(--default-padding) * 1.75);
+  }
+
+  .logo img {
+    max-width: 13rem;
+  }
+
+  .login {
+    gap: calc(var(--gutter) * 0.5);
+  }
+
+  .hero__link {
+    padding: 1.75rem 4.75rem;
+    width: 70%;
+  }
+  .opinion__head-text h3 {
+    line-height: calc(var(--default-line-height) * 0.667);
+  }
+}
+/* ------------------------------------------------ */
+/* Labtop */
+@media (max-width: 1024px) {
+  .container {
+    padding-inline: var(--default-padding);
+  }
+
+  h1 {
+    font-size: var(--font-size-40);
+  }
+
+  .button-sign {
+    padding: 1rem 1.5rem;
+  }
+
+  .logo img {
+    max-width: 12rem;
+  }
+
+  .navbar__list {
+    gap: clamp(1rem, 3vw, 4rem);
+  }
+
+  .services {
+    padding-inline: 0.5rem;
+  }
+
+  .subscribe {
+    padding-inline: 4.5rem;
+  }
+}
+/* ------------------------------------------------ */
+/* Tablet */
+@media (max-width: 768px) {
+  .container {
+    padding-inline: calc(var(--default-padding) * 0.625);
+  }
+
+  h1 {
+    font-size: var(--font-size-35);
+  }
+
+  .header:has(.burger-menu__checkbox:checked) .navbar {
+    top: 104%;
+  }
+
+  .burger-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: calc(var(--gutter) * 0.375);
+    z-index: 0;
+    align-self: center;
+    margin-right: 2rem;
+  }
+
+  .burger-menu__bar {
+    height: 0.2rem;
+    width: 3.375rem;
+    background-color: var(--color-text);
+    transition: var(--transition-timing);
+  }
+
+  .logo {
+    flex-grow: 1;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-more-light-grey);
+    width: 100%;
+    padding: 3.1rem 0;
+    box-shadow: 0 2px 5px var(--color-box-shadow);
+    border-bottom: 0.3rem solid var(--color-box-shadow);
+    z-index: -1;
+    transition: var(--transition-timing);
+  }
+
+  .navbar__list {
+    padding-inline: 8rem;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero__data {
+    order: 2;
+    align-items: center;
+    text-align: center;
+  }
+
+  .services {
+    grid-template-columns: 1fr;
+  }
+
+  .box {
+    column-gap: calc(var(--gutter) * 2.5);
+    margin-inline: 5rem;
+  }
+
+  .box:nth-of-type(2) {
+    border-inline: 0;
+    border-block: 0.2rem solid var(--color-light-grey);
+  }
+
+  .functions {
+    grid-template-columns: 1fr;
+    row-gap: calc(var(--gutter) * 2);
+  }
+
+  .functions__informations {
+    order: 2;
+  }
+
+  .functions__informations .main-heading {
+    text-align: center;
+  }
+
+  .subscribe {
+    flex-direction: column;
+    row-gap: calc(var(--gutter) * 2.5);
+    text-align: center;
+    padding-inline: 4rem;
+  }
+
+  .row {
+    grid-template-columns: 1fr;
+    row-gap: calc(var(--gutter) * 2);
+    align-items: center;
+  }
+
+  .row__data {
+    text-align: center;
+    align-items: center;
+  }
+}
+/* ------------------------------------------------ */
+/* Mobile */
+@media (max-width: 576px) {
+  .container {
+    padding-inline: calc(var(--default-padding) * 0.5);
+  }
+
+  .button-sign {
+    padding: 1rem 1.2rem;
+  }
+
+  .burger-menu {
+    margin-right: 1rem;
+  }
+
+  .logo img {
+    max-width: 11rem;
+  }
+
+  .navbar__list {
+    padding-inline: 2.5rem;
+  }
+
+  .login {
+    gap: calc(var(--gutter) * 0.4);
+  }
+
+  .about > .container {
+    width: 90%;
+  }
+
+  .box {
+    column-gap: calc(var(--gutter) * 1.5);
+    margin-inline: 3rem;
+  }
+
+  .subscribe {
+    padding-inline: 4rem;
+  }
+
+  .row__columns {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    row-gap: calc(var(--gutter) * 2);
+  }
+}
+/* ------------------------------------------------ */
+/* Small Mobile */
+@media (max-width: 375px) {
+  .container {
+    padding-inline: calc(var(--default-padding) * 0.375);
+  }
+
+  .button-sign {
+    font-size: var(--font-size-14);
+  }
+
+  .navbar__list {
+    font-size: var(--font-size-14);
+    padding-inline: 2rem;
+    gap: clamp(0rem, 2vw, 2rem);
+  }
+
+  .login {
+    gap: calc(var(--gutter) * 0.2);
+  }
+
+  .box {
+    margin-inline: 2rem;
+  }
+}

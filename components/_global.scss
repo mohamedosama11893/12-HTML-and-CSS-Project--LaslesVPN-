@@ -1,0 +1,48 @@
+/* Start Global Rules*/
+
+.container {
+  max-width: 1440px;
+  padding-inline: calc(var(--default-padding) * 2.5);
+  margin: 0 auto;
+  width: 100%;
+}
+
+.main-heading {
+  font-size: var(--font-size-35);
+  font-weight: var(--font-weight-medium);
+  line-height: calc(var(--default-line-height) * 1.667);
+  color: var(--color-headline);
+}
+
+.button-sign {
+  border: 0.1rem solid var(--color-button-bg);
+  padding: 1rem 3rem;
+  border-radius: calc(var(--default-radius) * 5);
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-button-bg);
+  transition: var(--transition-timing);
+  &:hover {
+    color: var(--color-background-more-light);
+    background-color: var(--color-button-bg);
+    box-shadow: 0 8px 16px 0 var(--color-box-shadow);
+  }
+}
+
+.button-start {
+  background-color: var(--color-button-bg);
+  color: var(--color-background-more-light);
+  padding: 1.75rem 7.75rem;
+  border-radius: var(--default-radius);
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-bold);
+  line-height: calc(var(--default-line-height) * 0.833);
+  box-shadow: 0 8px 16px 0 var(--color-box-shadow);
+  text-align: center;
+  transition: var(--transition-timing);
+  &:hover {
+    background-color: var(--color-button-bg-dark);
+  }
+}
+/* End Global Rules*/
+/* ------------------------------------------------ */

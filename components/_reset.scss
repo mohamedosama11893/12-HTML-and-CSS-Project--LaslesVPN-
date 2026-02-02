@@ -1,0 +1,84 @@
+/* ------------------------------------------------ */
+/* CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  display: inline-block;
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  border: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--default-padding) * 2.5);
+}
+
+body {
+  font-size: var(--font-size-16);
+  font-family: var(--font-family-rubik);
+  color: var(--color-text);
+  background-color: var(--color-background-more-light);
+}
+
+h1 {
+  font-size: var(--font-size-50);
+  font-weight: var(--font-weight-bold);
+  line-height: calc(var(--default-line-height) * 2.33);
+  color: var(--color-headline);
+
+  @media (max-width: 1024px) {
+    font-size: var(--font-size-40);
+  }
+
+  @media (max-width: 768px) {
+    font-size: var(--font-size-35);
+  }
+}
+
+h2 {
+  font-size: var(--font-size-25);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--default-line-height);
+  color: var(--color-headline);
+}
+
+h3 {
+  font-size: var(--font-size-18);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--default-line-height);
+  color: var(--color-headline);
+}
+
+p {
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--default-line-height);
+  color: var(--color-text);
+}
+
+/* End CSS Reset */
+/* ------------------------------------------------ */

@@ -1,0 +1,65 @@
+/* Start Features Section */
+.features {
+  background-image: linear-gradient(
+    to top,
+    var(--color-background-more-light),
+    var(--color-more-light-grey)
+  );
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+}
+
+.functions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: calc(var(--gutter) * 2);
+  justify-content: center;
+  align-items: center;
+
+  &__image {
+    display: flex;
+    justify-content: center;
+
+    &-content {
+      max-width: 100%;
+      height: auto;
+      animation: up-and-down 5s linear 0s infinite normal none running;
+    }
+  }
+
+  &__informations {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--gutter);
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: calc(var(--gutter) * 0.75);
+    justify-content: center;
+  }
+
+  &__points {
+    display: flex;
+    align-items: center;
+    column-gap: calc(var(--gutter) * 0.5);
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--default-line-height);
+    color: var(--color-text);
+  }
+
+  &__points-pic {
+    max-width: 100%;
+  }
+
+  &__objective {
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-regular);
+    line-height: 3rem;
+    color: var(--color-text);
+  }
+}
+
+/* End Features Section */
